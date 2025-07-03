@@ -17,10 +17,15 @@ body {
 
 #summary {
     height: 20%;
-    font-size: 80px;
+    max-width: 476px;
+    overflow: hidden;
     background-color: #113f67;
+    font-size: 100px;
     border-radius: 30px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #calculator {
