@@ -34,14 +34,13 @@ body {
     border-radius: 20px;
 }
 
-.row {
-    display: flex;
-    margin: 8px;
+.buttons {
+    height: 77%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 button {
-    height: 100px;
-    width: 100px;
     background-color: rgba(56, 89, 139);
     color: white;
     font-size: 45px;
@@ -53,8 +52,8 @@ button {
 }
 
 #clear-button {
-    width: 220px;
     background-color: #113f67d6;
+    grid-area: 5 / -5 / 5 / -3;
 }
 
 .sign {
@@ -71,5 +70,42 @@ button {
 @keyframes blink {
     50% {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: none;
+        background-color: #e7eaf6;
+    }
+    #summaryContainer {
+        width: 360px;
+    }
+    #calculator {
+        height: 80%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #summaryContainer {
+        width: 320px;
+    }
+    #calculator {
+        height: 70%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    button  {
+        font-size: 30px;
+    }
+    #summaryContainer {
+        width: 280px;
+        font-size: 50px;
+    }
+    #typewriter {
+        font-size: 50px;
+        margin-left: -15px;
+    }
+    #calculator {
+        height: 60%;
     }
 }
