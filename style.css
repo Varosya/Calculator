@@ -32,6 +32,7 @@ body {
     height: 90%;
     background-color: rgba(56, 89, 139, 0.5);
     border-radius: 20px;
+    padding: 8px;
 }
 
 .buttons {
@@ -109,3 +110,4 @@ button {
         height: 60%;
     }
 }
+
