@@ -31,3 +31,7 @@ It evaluates full mathematical expressions, including brackets and decimals, and
 - **HTML** – calculator layout
 - **CSS** – custom styling and display
 - **JavaScript** – logic, display, and evaluation
+
+Here’s what it looks like:
+
+![App Screenshot](screenshot.png)
