@@ -3,6 +3,9 @@ Simple Calculator
 A responsive, interactive calculator built with HTML, CSS, and JavaScript.  
 It evaluates full mathematical expressions, including brackets and decimals, and provides real-time input feedback.
 
+## Live demo
+[👉 Click here to play the live version!](https://varosya.github.io/calculator/)
+
 ## 🚀 Features
 
 - ✅ Basic math operations: `+`, `-`, `*`, `/`
